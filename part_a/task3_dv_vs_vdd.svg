@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" style="background:#ffffff; font-family:system-ui,-apple-system,sans-serif;">
+<text x="400.0" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">Part A Task 3: Differential Bitline Voltage ΔV vs Supply Voltage V_DD</text>
+<text x="400.0" y="44" text-anchor="middle" font-size="12" fill="#4b5563">Evaluation of Sensing Margin against 25 mV Sense-Amplifier Offset</text>
+<line x1="114.00000000000001" y1="55" x2="114.00000000000001" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="114.00000000000001" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.2 V</text>
+<line x1="182.0" y1="55" x2="182.0" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="182.0" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.3 V</text>
+<line x1="250.00000000000003" y1="55" x2="250.00000000000003" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="250.00000000000003" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.4 V</text>
+<line x1="318.0" y1="55" x2="318.0" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="318.0" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.5 V</text>
+<line x1="386.0" y1="55" x2="386.0" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="386.0" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.6 V</text>
+<line x1="454.00000000000006" y1="55" x2="454.00000000000006" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="454.00000000000006" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.7 V</text>
+<line x1="522.0000000000001" y1="55" x2="522.0000000000001" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="522.0000000000001" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.8 V</text>
+<line x1="590.0" y1="55" x2="590.0" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="590.0" y="475" text-anchor="middle" font-size="11" fill="#6b7280">0.9 V</text>
+<line x1="658.0000000000001" y1="55" x2="658.0000000000001" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="658.0000000000001" y="475" text-anchor="middle" font-size="11" fill="#6b7280">1.0 V</text>
+<line x1="726.0000000000001" y1="55" x2="726.0000000000001" y2="455" stroke="#e5e7eb" stroke-width="1"/>
+<text x="726.0000000000001" y="475" text-anchor="middle" font-size="11" fill="#6b7280">1.1 V</text>
+<line x1="80" y1="455.0" x2="760" y2="455.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="459.0" text-anchor="end" font-size="11" fill="#6b7280">0 mV</text>
+<line x1="80" y1="421.66666666666663" x2="760" y2="421.66666666666663" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="425.66666666666663" text-anchor="end" font-size="11" fill="#6b7280">50 mV</text>
+<line x1="80" y1="388.33333333333337" x2="760" y2="388.33333333333337" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="392.33333333333337" text-anchor="end" font-size="11" fill="#6b7280">100 mV</text>
+<line x1="80" y1="355.0" x2="760" y2="355.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="359.0" text-anchor="end" font-size="11" fill="#6b7280">150 mV</text>
+<line x1="80" y1="321.6666666666667" x2="760" y2="321.6666666666667" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="325.6666666666667" text-anchor="end" font-size="11" fill="#6b7280">200 mV</text>
+<line x1="80" y1="288.3333333333333" x2="760" y2="288.3333333333333" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="292.3333333333333" text-anchor="end" font-size="11" fill="#6b7280">250 mV</text>
+<line x1="80" y1="255.0" x2="760" y2="255.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="259.0" text-anchor="end" font-size="11" fill="#6b7280">300 mV</text>
+<line x1="80" y1="221.66666666666666" x2="760" y2="221.66666666666666" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="225.66666666666666" text-anchor="end" font-size="11" fill="#6b7280">350 mV</text>
+<line x1="80" y1="188.33333333333334" x2="760" y2="188.33333333333334" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="192.33333333333334" text-anchor="end" font-size="11" fill="#6b7280">400 mV</text>
+<line x1="80" y1="155.0" x2="760" y2="155.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="159.0" text-anchor="end" font-size="11" fill="#6b7280">450 mV</text>
+<line x1="80" y1="121.66666666666666" x2="760" y2="121.66666666666666" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="125.66666666666666" text-anchor="end" font-size="11" fill="#6b7280">500 mV</text>
+<line x1="80" y1="88.33333333333334" x2="760" y2="88.33333333333334" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="92.33333333333334" text-anchor="end" font-size="11" fill="#6b7280">550 mV</text>
+<line x1="80" y1="55.0" x2="760" y2="55.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="59.0" text-anchor="end" font-size="11" fill="#6b7280">600 mV</text>
+<text x="420.0" y="502" text-anchor="middle" font-size="13" font-weight="600" fill="#374151">Supply Voltage V_DD (V)</text>
+<text x="25" y="255.0" text-anchor="middle" font-size="13" font-weight="600" fill="#374151" transform="rotate(-90 25 255.0)">Bitline Differential ΔV (mV)</text>
+<line x1="80" y1="438.33333333333337" x2="760" y2="438.33333333333337" stroke="#dc2626" stroke-dasharray="6,4" stroke-width="2"/>
+<text x="750" y="431.33333333333337" text-anchor="end" font-size="11" font-weight="bold" fill="#dc2626">Sense-Amp Input-Referred Offset = 25 mV (Lecture 5)</text>
+<path d="M 726.0,94.5 L 692.0,115.8 L 658.0,137.6 L 624.0,159.8 L 590.0,182.5 L 556.0,205.7 L 522.0,229.2 L 488.0,253.2 L 454.0,277.3 L 420.0,301.7 L 386.0,326.0 L 352.0,350.1 L 318.0,373.4 L 284.0,395.3 L 250.0,414.9 L 216.0,430.9 L 182.0,442.4 L 148.0,449.2 L 114.0,452.5" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="726.0" cy="94.5" r="3.5" fill="#2563eb"/>
+<circle cx="692.0" cy="115.8" r="3.5" fill="#2563eb"/>
+<circle cx="658.0" cy="137.6" r="3.5" fill="#2563eb"/>
+<circle cx="624.0" cy="159.8" r="3.5" fill="#2563eb"/>
+<circle cx="590.0" cy="182.5" r="3.5" fill="#2563eb"/>
+<circle cx="556.0" cy="205.7" r="3.5" fill="#2563eb"/>
+<circle cx="522.0" cy="229.2" r="3.5" fill="#2563eb"/>
+<circle cx="488.0" cy="253.2" r="3.5" fill="#2563eb"/>
+<circle cx="454.0" cy="277.3" r="3.5" fill="#2563eb"/>
+<circle cx="420.0" cy="301.7" r="3.5" fill="#2563eb"/>
+<circle cx="386.0" cy="326.0" r="3.5" fill="#2563eb"/>
+<circle cx="352.0" cy="350.1" r="3.5" fill="#2563eb"/>
+<circle cx="318.0" cy="373.4" r="3.5" fill="#2563eb"/>
+<circle cx="284.0" cy="395.3" r="3.5" fill="#2563eb"/>
+<circle cx="250.0" cy="414.9" r="3.5" fill="#2563eb"/>
+<circle cx="216.0" cy="430.9" r="3.5" fill="#2563eb"/>
+<circle cx="182.0" cy="442.4" r="3.5" fill="#2563eb"/>
+<circle cx="148.0" cy="449.2" r="3.5" fill="#2563eb"/>
+<circle cx="114.0" cy="452.5" r="3.5" fill="#2563eb"/>
+<path d="M 726.0,405.5 L 692.0,408.7 L 658.0,411.9 L 624.0,415.2 L 590.0,418.5 L 556.0,421.8 L 522.0,425.1 L 488.0,428.5 L 454.0,431.8 L 420.0,435.1 L 386.0,438.4" fill="none" stroke="#059669" stroke-width="2.5" stroke-dasharray="6,3"/>
+<circle cx="726.0" cy="405.5" r="3.5" fill="#059669"/>
+<circle cx="692.0" cy="408.7" r="3.5" fill="#059669"/>
+<circle cx="658.0" cy="411.9" r="3.5" fill="#059669"/>
+<circle cx="624.0" cy="415.2" r="3.5" fill="#059669"/>
+<circle cx="590.0" cy="418.5" r="3.5" fill="#059669"/>
+<circle cx="556.0" cy="421.8" r="3.5" fill="#059669"/>
+<circle cx="522.0" cy="425.1" r="3.5" fill="#059669"/>
+<circle cx="488.0" cy="428.5" r="3.5" fill="#059669"/>
+<circle cx="454.0" cy="431.8" r="3.5" fill="#059669"/>
+<circle cx="420.0" cy="435.1" r="3.5" fill="#059669"/>
+<circle cx="386.0" cy="438.4" r="3.5" fill="#059669"/>
+<circle cx="386.0" cy="438.36" r="6" fill="none" stroke="#dc2626" stroke-width="2"/>
+<text x="396.0" y="454.36" font-size="11" font-weight="bold" fill="#059669">Early sensing failure: VDD = 0.60 V (ΔV = 24.96 mV)</text>
+<circle cx="197.64000000000004" cy="438.33333333333337" r="6" fill="none" stroke="#dc2626" stroke-width="2"/>
+<text x="182.64000000000004" y="426.33333333333337" font-size="11" font-weight="bold" fill="#2563eb" text-anchor="end">Unstrobed (2 ns) crossing: VDD ≈ 0.32 V</text>
+<rect x="105" y="75" width="340" height="90" fill="#ffffff" stroke="#d1d5db" rx="4" opacity="0.95"/>
+<line x1="115" y1="95" x2="145" y2="95" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="130" cy="95" r="3.5" fill="#2563eb"/>
+<text x="153" y="99" font-size="11" fill="#111827">ΔV at t = 2.0 ns (netlist meas: 1 ns after WL)</text>
+<line x1="115" y1="120" x2="145" y2="120" stroke="#059669" stroke-width="2.5" stroke-dasharray="6,3"/>
+<circle cx="130" cy="120" r="3.5" fill="#059669"/>
+<text x="153" y="124" font-size="11" fill="#111827">ΔV at t = 1.15 ns (realistic ~100 ps sensing strobe)</text>
+<line x1="115" y1="145" x2="145" y2="145" stroke="#dc2626" stroke-dasharray="6,4" stroke-width="2"/>
+<text x="153" y="149" font-size="11" fill="#dc2626" font-weight="bold">Sense-Amp Offset Limit (25 mV)</text>
+</svg>

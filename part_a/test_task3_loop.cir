@@ -1,0 +1,53 @@
+* Test ngspice control loop for Task 3
+.include 45nm_bulk.txt
+
+Vdd vdd 0 1.1
+Bwl wl 0 V = (time < 1n ? 0 : (time < 1.05n ? v(vdd)*(time - 1n)/0.05n : v(vdd)))
+
+MP1 qb q vdd vdd pmos W=0.15u L=0.045u
+MN1 qb q 0 0 nmos W=0.20u L=0.045u
+MP2 q qb vdd vdd pmos W=0.15u L=0.045u
+MN2 q qb 0 0 nmos W=0.20u L=0.045u
+MA1 bl wl q 0 nmos W=0.16u L=0.045u
+MA2 blb wl qb 0 nmos W=0.16u L=0.045u
+
+Cbl bl 0 180f
+Cblb blb 0 180f
+
+.control
+let v_val = 1.1
+let step = 0.05
+
+* prepare vector arrays
+let n_points = 11
+let vdd_arr = unitvec(n_points)
+let dv_arr = unitvec(n_points)
+let qmax_arr = unitvec(n_points)
+
+let i = 0
+while v_val ge 0.599
+  alter Vdd = v_val
+  alter @cbl[ic] = v_val
+  alter @cblb[ic] = v_val
+  
+  * set initial conditions
+  ic v(q)=0 v(qb)=v_val v(bl)=v_val v(blb)=v_val
+  
+  tran 5p 4n uic
+  
+  let diff = v(blb) - v(bl)
+  meas tran dv_meas FIND diff AT=2.0n
+  meas tran qm_meas MAX v(q) FROM=1n TO=4n
+  
+  let vdd_arr[i] = v_val
+  let dv_arr[i] = dv_meas
+  let qmax_arr[i] = qm_meas
+  
+  let v_val = v_val - step
+  let i = i + 1
+end
+
+wrdata task3_sweep.csv vdd_arr dv_arr qmax_arr
+quit
+.endc
+.end
