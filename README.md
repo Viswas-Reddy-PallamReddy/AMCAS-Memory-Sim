@@ -63,18 +63,6 @@ The bitcell utilizes the nominal 45 nm PTM BSIM4 transistor model at nominal $V_
 - **Bitline Capacitances:** $C_{BL} = C_{BLB} = 180\text{ fF}$, precharged to $V_{BL} = 1.1\text{ V}$.
 - **Initial State:** $Q = 0\text{ V},\ QB = 1.1\text{ V}$. Wordline pulsed at $t = 1.0\text{ ns}$ with a $50\text{ ps}$ rise time.
 
-```
-                    VDD (1.1V)
-                     |       |
-                   [MP1]   [MP2]
-                     |---o---|
-                     |   |   |
-          BL ---[MA1]-Q- | -QB-[MA2]--- BLB
-                     |   |   |
-                   [MN1]   [MN2]
-                     |       |
-                    GND     GND
-```
 
 ### Table A1. ngspice Simulation Results Across Tasks 1–4
 
